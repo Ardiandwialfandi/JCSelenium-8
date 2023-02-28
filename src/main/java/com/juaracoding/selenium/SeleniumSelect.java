@@ -38,6 +38,8 @@ public class SeleniumSelect {
             throw new RuntimeException(e);
         }
 
+
+
         driver.quit();
         System.out.println("Quit");
 

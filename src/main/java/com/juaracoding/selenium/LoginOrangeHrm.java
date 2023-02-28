@@ -25,8 +25,8 @@ public class LoginOrangeHrm {
         driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button")).click();
         System.out.println("Button login success");
 
-        driver.get("https://google.com");
-        driver.findElement(By.linkText("Gmail")).click();
+//        driver.get("https://google.com");
+//        driver.findElement(By.linkText("Gmail")).click();
 //
 //        js.executeScript("window.scroll(0,500)");//scroll
         System.out.println("Delay out 3 second");
@@ -36,7 +36,7 @@ public class LoginOrangeHrm {
             throw new RuntimeException(e);
         }
 
-        driver.quit();
-        System.out.println("Exit");
+//        driver.quit();
+//        System.out.println("Exit");
     }
 }
